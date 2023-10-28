@@ -1,0 +1,320 @@
+body {background-color: #7B61FF;}
+
+p {font-family: 'Lato', sans-serif;}
+
+h1, h2, h3, h4, h5, h6 {
+                         font-family: 'Lato', sans-serif;
+                       }
+
+
+
+.logohead {
+            color: white;
+            font-weight: 900;
+            text-decoration: none;
+          }
+
+.off-button {text-align: right;
+              color: white;}
+
+.headcols {
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+          }
+
+.enrolbutton {
+                background-color: #023047;
+                border-radius: 15px;
+                border: none;
+                font-weight: bold;
+                padding: 1rem;
+             }
+
+.aligncontents {align-items: center;}
+
+.nav-item {padding: 0 10px;}
+
+.paddinghero {padding-top: 50px;}
+
+.flex-container {
+                  display: flex;
+                  flex-wrap: wrap;
+                }
+
+.hero {max-width: 40%;}
+
+.hero-p {font-size: 1.3rem;}
+
+.hero-h1 {
+            color: white;
+            font-weight: 900;
+            font-size: 50px;
+         }
+
+.hero-p {color: white;
+        font-weight: 500;
+        }
+
+.hero-topbutton {
+                  background-color: #DA722C;
+                  color: white;
+                  border-radius: 15px;
+                  padding: 10px 20px;
+                  border: none;
+                  font-weight: bold;
+                }
+
+
+.tabs-button {
+               text-align: right;
+               visibility: hidden;
+             }
+
+.hero-tabbutton {
+                  background-color: #DA722C;
+                  color: white;
+                  border-radius: 15px;
+                  padding: 10px 20px;
+                  border: none;
+                  font-weight: bold;
+                }
+
+.headcards {
+             max-width: 25%;
+             height: 15%;
+             margin-top: 10%;
+           }
+
+.headstudent {max-width: 35%;}
+
+.white-section  {
+                  background-color: white;
+                  color: #023047;
+                }
+
+.testimonial-container {padding: 10% 0;}
+
+.testimonial-flex {
+                    justify-content: space-between;
+                    align-items: center;
+                  }
+
+.testimonial-img {max-width: 45%;}
+
+.testimonial-text {max-width: 45%;}
+
+.testimonialhead {
+                   color: #023047;
+                   font-weight: 900;
+                 }
+
+.testimonialp {color: #023047;}
+
+.desktopcourses {
+                  width: 100%;
+                  display: block;
+                  margin-right: auto;
+                  margin-left: auto;
+                  margin-bottom: 5%;
+                }
+
+.course-img {
+              width: 1%;
+              margin-right: auto;
+              margin-left: auto;
+              margin-bottom: 5%;
+              visibility: hidden;
+            }
+
+.coursesh1 {
+             text-align: center;
+             padding-bottom: 5%;
+           }
+
+.coursesbutton {text-align: right;}
+
+.appscontainer {text-align: center;}
+
+.app-button {
+              background-color: black;
+              color: white;
+              padding: 1% 4%;
+              border: none;
+              font-weight: bold;
+              margin-left: 1%;
+              margin-right: 1%;
+            }
+
+.button-flex {
+               justify-content: center;
+               margin-top: 3%;
+             }
+
+.footer-container {
+                    background-color: black;
+                    color: white;
+                  }
+
+.quick-links {
+               min-width: 25%;
+             }
+
+.course {
+          min-width: 25%;
+        }
+
+.contact-us {
+              min-width: 50%;
+            }
+
+.footer-heads {color: #DA722C;}
+
+.footer-links {
+                color: white;
+                display: block;
+                text-decoration: none;
+                padding-left: 3%;
+                padding-top: 3%;
+              }
+
+.socials-button {display: inline-block;}
+
+.footer-button {
+                 background-color: #023047;
+                 color: white;
+                 border-radius: 15px;
+                 padding: 10px 20px;
+                 border: none;
+                 font-weight: bold;
+               }
+
+.footer-talk {padding-top: 4%;}
+
+@media (min-width: 769px) and (max-width: 941px) {
+        .hero {min-width: 100%;}
+
+        .hero-p {font-size: 1.5rem;}
+
+        .headcards {max-width: 45%;}
+        .headstudent {max-width: 55%;}
+
+        .testimonial-img {
+                           min-width: 100%;
+                           order: 1;
+                         }
+        .testimonial-text {min-width: 100%;}
+
+        .hero-topbutton {display: none;}
+
+        .tabs-button {visibility: visible;}
+
+        .desktopcourses {display: none;}
+
+        .course-img {
+                      visibility: visible;
+                      width: 100%;
+                    }
+
+        .quick-links {min-width: 50%;}
+
+        .course {min-width: 50%;}
+
+        .contact-us {
+                      min-width: 100%;
+                      margin-top: 4%;
+                    }
+
+}
+
+@media (max-width: 768px) {
+        .hero {min-width: 100%;}
+        .hero-p {font-size: 1.2rem;}
+        .headcards {max-width: 35%;}
+        .headstudent {max-width: 65%;}
+
+        .testimonial-img {
+                           min-width: 100%;
+                           display: block;
+                           margin-left: auto;
+                           margin-right: auto;
+                           order: 1;
+                         }
+
+        .testimonial-text {
+                            min-width: 100%;
+                            padding: 0 5%;
+                          }
+
+        .hero-topbutton {display: none;}
+
+        .tabs-button {visibility: visible;}
+
+        .desktopcourses {display: none;}
+
+        .course-img {
+                      visibility: visible;
+                      width: 100%;
+                    }
+
+        .quick-links {
+                       min-width: 100%;
+                       text-align: center;
+                       padding: 5% 0;
+                     }
+
+        .course {
+                  min-width: 100%;
+                  text-align: center;
+                  padding: 5% 0;
+                }
+
+        .contact-us {
+                      min-width: 100%;
+                      text-align: center;
+                      padding: 5% 0;
+                    }
+
+        .footer-talk {text-align: center;}
+
+        .newoffcanvas {
+                        background-color: black;
+                        width: 100vh;
+                        height: 100vh;
+                      }
+
+        .off-button {
+                      background-color: white;
+                    }
+
+        .off-buttondiv {
+                         display: block;
+                         margin-left: 80%;
+                         margin-right: 10%;
+                       }
+
+        .headcols {text-decoration: none;}
+
+        .navbutton-mobile {
+                            background-color: #DA722C;
+                          }
+
+        .offcanvas-contents {
+                              text-align: center;
+                            }
+
+        .canvas-items {
+                        padding: 5% 0;
+                      }
+
+        .aligncontents {
+                         align-items: center;
+                         height: 50vh;
+                       }
+
+        .app-button {
+                      min-width: 80%;
+                      margin: 3% 0;
+                    }
+
+}
